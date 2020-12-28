@@ -8,7 +8,6 @@ add_subdirectory(src/time)
 add_subdirectory(src/server)
 add_subdirectory(src/logging)
 
-add_definitions(${GCC_COVERAGE_COMPILE_FLAGS})
 
 find_package(Boost REQUIRED COMPONENTS system thread)
 # find_package(Boost 1.75.0 COMPONENTS system asio)
